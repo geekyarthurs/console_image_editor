@@ -1,10 +1,10 @@
 # Samuel's Edit
 
-Developer : [Mahesh C. Regmi](https://facebook.com/xSamuelArthursx)
+Developer: [Mahesh C. Regmi](https://facebook.com/xSamuelArthursx)
 
 
 
-Samuel's Edit is an console based image editor built on top of python.
+Samuel's Edit is a console-based image editor built on top of Python.
 
   - Add text
   - Resize Images
@@ -21,14 +21,13 @@ Samuel's Edit is an console based image editor built on top of python.
 
 ### Tech
 
-Samuel's Edit uses a number of open source projects (or not )  to work properly:
+Samuel's Edit uses a number of open source projects (or not ) to work properly:
 
 * [OpenCV] - Enhanced Computer Vision for processing Images
 * [PIL] - Efficient Image Processing library on python3.
 
 
-And of course Samuel's edit. itself is open source with a [public repository][samueledits]
- on GitHub.
+And of course Samuel's Edit itself is open source with a [public repository][samueledits] on GitHub.
 
 ### Installation
 
@@ -45,7 +44,7 @@ $ python3 main.py <image_name>
 
 ##### Opening Image in SamuelEdits
 
-You can open image on samueleditsby this command.
+You can open image on samueledits by this command.
 ```sh
 python3 main.py <image_name>
 ```
@@ -66,7 +65,7 @@ See the image by just typing show.
 
 ##### Getting Image Resolution
 
-Get the image resolution ( width or height ) by the command below.
+Get the image resolution (width or height) by the command below.
 
 ```sh
 >shape
@@ -83,7 +82,7 @@ You can provide clockwise or anticlockwise by using another parameter.
 
 ```python
 >rotate 90 c #clockwise
->rotate 90 ac #anticlockwise
+>rotate 90 c #anticlockwise
 ```
 
 ##### Cropping Image
@@ -112,7 +111,7 @@ First initialize your text by sending scale factor, text and color.
 >text 0.5-hi-black
 ```
 
-Since the text is initialized , you can now write the text into the image by passing where you want to put it.
+Since the text is initialized, you can now write the text into the image by passing where you want to put it.
 
 ```python
 >write 100 100 # (x,y) = (100,100)
