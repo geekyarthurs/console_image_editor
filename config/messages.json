@@ -1,0 +1,13 @@
+{
+    "console-start": "\nThe shell is ready. Please type your command you want to execute. \nIf you are confused , type help and hit enter..",
+    "errors": {
+        "argument-length-error": "Please specify the filename you want to open in the editor.",
+        "invalid-image": "The image you are trying to open is not a valid image file to process.\nExiting.."
+
+    },
+    "exit-message" : "Exiting... Have a nice day..",
+    "save-messages" : {
+        "success" : "Succesfully saved the image",
+        "error" : "Error in saving the image."
+    }
+}
