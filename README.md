@@ -83,7 +83,7 @@ You can provide clockwise or anticlockwise by using another parameter.
 
 ```python
 >rotate 90 c #clockwise
->rotate 90 c #anticlockwise
+>rotate 90 ac #anticlockwise
 ```
 
 ##### Cropping Image
