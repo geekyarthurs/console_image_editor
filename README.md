@@ -32,7 +32,7 @@ And of course Samuel's edit. itself is open source with a [public repository][sa
 
 ### Installation
 
-Dillinger requires openCV and PIL to run properly.
+Samuel's Edit requires openCV and PIL to run properly.
 
 Install the dependencies and devDependencies and start the server.
 Refer to this link to install opencv [Install OpenCV](https://docs.opencv.org/3.4/d2/de6/tutorial_py_setup_in_ubuntu.html)
