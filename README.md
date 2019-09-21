@@ -38,7 +38,9 @@ Refer to this link to install opencv [Install OpenCV](https://docs.opencv.org/3.
 
 ```sh
 $ cd samueledits
-$ sudo pip install PIL json numpy imutils
+$ pip install pipenv
+$ pipenv shell
+$ sudo pip install requirements.txt
 $ python3 main.py <image_name>
 ```
 
