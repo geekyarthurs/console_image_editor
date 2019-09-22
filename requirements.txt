@@ -1,0 +1,4 @@
+freeze==1.0.10
+imutils==0.5.3
+numpy==1.17.2
+six==1.12.0
