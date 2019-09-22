@@ -41,7 +41,17 @@ $ cd samueledits
 $ sudo pip install PIL json numpy imutils
 $ python3 main.py <image_name>
 ```
+##### Virtual Env Installation
 
+```sh
+
+$ cd samueledits
+$ pip install pipenv
+$ pipenv shell
+$ sudo pip install -r requirements.txt
+$ python3 main.py <image_name>
+
+```
 ##### Opening Image in SamuelEdits
 
 You can open image on samueledits by this command.
