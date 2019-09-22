@@ -43,7 +43,7 @@ $ pipenv shell
 $ sudo pip install requirements.txt
 $ python3 main.py <image_name>
 ```
-##### Virtual Env Installation
+##### Virtual Env Installations
 
 ```sh
 
