@@ -14,7 +14,7 @@ class InputController:
     def processInput(self, msg):
         if(msg.strip()[:4] == "save"):
             self.modelImage.save(msg.strip()[4:])
-        if(msg.strip() == "exit" or msg.strip() == "close" or msg.strip() == "quit"):
+        if(msg.strip()[:5] == "exit " or msg.strip()[:6] == "close " or msg.strip()[:5] == "quit "):
             ColorPrint().print_warn(messages["exit-message"])
             exit()
         if(msg.strip()[:1] == "!"):
