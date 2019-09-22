@@ -144,7 +144,7 @@ Reset changes by simply typing reset.
 ### Development
 
 Want to contribute? Great!
-
+Thanks to Aju100 and TheBinitGhimire.
 
 ### Todos
 
