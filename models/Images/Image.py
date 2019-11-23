@@ -32,10 +32,14 @@ class Image:
 
     def show(self):
         cv2.imshow(self.filename, self.image)
-        key=cv2.waitKey(0) & 0xFF
-        if key==27:
-            cv2.destroyAllWindows()
-      
+        while True:
+            k=cv2.waitKey(100)
+            if k==27:
+                cv2.destroyAllWindows()
+                break
+            elif cv2.getWindowProperty(self.filename,cv2.WND_PROP_VISIBLE) < 1:
+                break
+        cv2.destroyAllWindows()
         
     def filter(self, type):
         self.image = cv2.cvtColor(self.image, cv2.COLOR_BGR2GRAY)
