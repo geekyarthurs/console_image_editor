@@ -32,9 +32,11 @@ class Image:
 
     def show(self):
         cv2.imshow(self.filename, self.image)
-        cv2.waitKey()
-        cv2.destroyAllWindows()
-
+        key=cv2.waitKey(0) & 0xFF
+        if key==27:
+            cv2.destroyAllWindows()
+      
+        
     def filter(self, type):
         self.image = cv2.cvtColor(self.image, cv2.COLOR_BGR2GRAY)
 
